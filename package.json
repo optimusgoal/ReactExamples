@@ -1,14 +1,13 @@
 {
-  "name": "ReactExamples",
-  "version": "0.0.1",
+  "name": "react-simple-POC",
+  "version": "1.0.0",
   "description": "Simple starter package for Redux with React and Babel support",
-  "repository": "https://github.com/optimusgoal/ReactExamples.git",
-  "scripts": {
-    "start": "http-server -a localhost -p 8000",
-    "port": "7531"
-  },
   "main": "index.js",
-  "author": "",
+  "repository": "https://github.com/optimusgoal/ReduxSimpleStarter.git",
+  "scripts": {
+    "start": "port 8070 node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
+  },
+  "author": "Raunak",
   "devDependencies": {
     "babel-core": "^6.2.1",
     "babel-loader": "^6.2.0",
